@@ -40,4 +40,9 @@ public class EmployeeController {
         return employeeService.updateEmployee(employee);
     }
 
+    @GetMapping("/up")
+    public String getProjectStatus() {
+        return "Hello I am up ";
+    }
+
 }
